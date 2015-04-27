@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="0"
+        android:background="#FF8D8D8D"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/save_pap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/savebutton" />
+
+        <Button
+            android:id="@+id/cancel_pap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelbutton" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Notes_pap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/notes_entry_pap"
+        android:layout_alignParentLeft="true"
+        android:text="@string/notes" />
+
+    <EditText
+        android:id="@+id/notes_entry_pap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="186dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/Date_pap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/datum_entry_pap"
+        android:layout_alignParentLeft="true"
+        android:text="@string/datum" />
+
+    <EditText
+        android:id="@+id/subject_entry_pap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Notes_pap"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/Subject_pap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/subject_entry_pap"
+        android:layout_alignParentLeft="true"
+        android:text="@string/subject" />
+
+    <EditText
+        android:id="@+id/datum_entry_pap"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/datum_entry_pap"
+        android:layout_alignBottom="@+id/datum_entry_pap"
+        android:layout_alignParentLeft="true"
+        android:text="Date" />
+
+</RelativeLayout>

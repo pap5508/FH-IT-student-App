@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FH IT</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="infosystem">Infosystem</string>
+    <string name="mensa">Mensa</string>
+    <string name="main">Home</string>
+    <string name="transport">Transport</string>
+    <string name="fhlinks">FH Links</string>
+    <string name="timetable">Timetable</string>
+    <string name="ic_info">Infosystem Image</string>
+    <string name="ic_mensa">Mensa Image</string>
+    <string name="ic_main">Main Image</string>
+    <string name="ic_trans">Transport Image</string>
+    <string name="qis_fhlinks">&#8226; <u>QIS</u></string>
+    <string name="modulehandbook_fhlinks">&#8226; <u>Module Hand Book</u></string>
+    <string name="moduleanmeldung_fhlinks">&#8226; <u>Module Registration</u></string>
+    <string name="idw_fhlinks">&#8226; <u>Inter Desiplinary Week</u></string>
+    <string name="software_fhlinks">&#8226; <u>Software Download</u></string>
+    <string name="international_fhlinks">&#8226; <u>International Office</u></string>
+    <string name="insurance_fhlinks">&#8226; <u>Insurance</u></string>
+    <string name="sports_fhlinks">&#8226; <u>Sports</u></string>
+    <string name="studentenwerk_fhlinks">&#8226; <u>Studentenwerk</u></string>
+    <string name="library_fhlinks">&#8226; <u>Library</u></string>
+    <string name="email_fhlinks">&#8226; <u>Email</u></string>
+    <string name="lms_fhlinks">&#8226; <u>LMS</u></string>
+    <string name="button_folder">Make Folder</string>
+    <string name="login">Login</string>
+    <string name="registration">Make my Profile</string>
+    <string name="welcome_text">Dear Users, Welcome to our new FH IT App. This app provides you all information related to 
+         the Master IT course. Register your profile with us, and make use of all the additional features. You can still access 
+         the basic functionalities without registration.</string>
+    <string name="userlogin"><u>USER LOGIN</u></string>
+    <string name="useraddress">Profile Name</string>
+    <string name="password">Password</string>
+    <string name="confirmpass">P.Confirm</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back</string>
+    <string name="remember_me">Remember Me!</string>
+    <string name="user_registration">USER REGISTRATION</string>
+    <string name="register">Register</string>
+    <string name="matno">Mat No</string>
+    <string name="studentaddress">Student Email</string>
+    <string name="semester">Current Semester</string>
+    <string name="courses">Courses</string>
+    <string name="title"> TODAYS MENU</string>
+    <string name="day">DAY</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="savebutton">Save</string>
+    <string name="cancelbutton">Cancel</string>
+    <string name="subject">Subject</string>
+    <string name="notes">Notes</string>
+    <string name="datum">Date</string>
+    <string name="Add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="allnote">All Notes</string>
+    <string name="addnote">Add Note</string>
+    <string name="ok">OK</string>
+    <string name = "share">Share</string>
+    <string name = "contact">Contact</string>
+    <string name = "contactgroup">Group</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Infosystem</item>
+        <item>Mensa</item>
+        <item>Transport</item>
+        <item>FH Links</item>
+        <item>Timetable</item>
+        <item> My Workspace</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_info</item>
+        <item>@drawable/ic_mensa</item>
+        <!-- <item>@drawable/ic_trans</item> -->
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Multi- auto complete for courses -->
+    <string-array name="list_of_courses_WS2014">
+        <item>Introduction to Scientific Studies</item>
+        <item>Strategic IT Planning</item>
+        <item>Advanced Requirements Engineering</item>
+        <item>Advanced Javascript Programming</item>
+        <item>IT Security Audit and Assessment</item>
+        <item>Research Assistanship</item>
+        <item>Pattern Recognition</item>
+        <item>Automatic Speech Processing</item>
+        <item>Channel Coding and Information Technology</item>
+        <item>Modern Mobile Communication Systems</item>
+    </string-array>
+
+</resources>
